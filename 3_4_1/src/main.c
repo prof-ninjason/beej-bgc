@@ -12,6 +12,7 @@ void main(void) {
 		printf(
 				"Yes, i is greater than 10.\nAnd this will also print if i is greater than 10.\n");
 		i--;
+		printf("i becomes 9.\nNow i is less than 10.\n");
 	}
 
 	if (i <= 10) {
