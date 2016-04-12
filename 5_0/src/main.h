@@ -23,6 +23,7 @@ void doit(int a, int b) {
 	printf("\nplus_one(a + 10):     %3i", plus_one(a + 10)); /* the type of the whole expression is still int */
 	printf("\nplus_one(a + b):      %3i", plus_one(a + b)); /* the type of the whole expression is still int */
 	printf("\nplus_one(plus_one(a): %3i", plus_one(plus_one(a))); /* oooo! return value is int, so it's ok!  */
+	putchar('\n');
 }
 
 #endif /* MAIN_H_ */
