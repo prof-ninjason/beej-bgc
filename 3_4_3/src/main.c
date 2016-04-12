@@ -4,8 +4,9 @@
  *  Created on: Apr 11, 2016
  *      Author: jcrochon
  */
+#include <stdlib.h>
+#include <stdio.h>
 
-/* using a while statement: */
 
 void main(void) {
 	int i = 10;

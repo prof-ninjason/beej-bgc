@@ -1,7 +1,7 @@
 /*
- * 2.4.c
+ * main.c
  *
- *  Created on: Apr 10, 2016
+ *  Created on: Apr 12, 2016
  *      Author: jcrochon
  */
 #include <stdlib.h>
@@ -9,7 +9,5 @@
 
 
 int main(void) {
-	printf("Hello, World!\n");
-
 	return 0;
 }

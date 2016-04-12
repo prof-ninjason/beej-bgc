@@ -4,6 +4,9 @@
  *  Created on: Apr 10, 2016
  *      Author: jcrochon
  */
+#include <stdlib.h>
+#include <stdio.h>
+
 
 void main(void) {
 	int i = 11;
