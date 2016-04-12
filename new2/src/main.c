@@ -10,5 +10,7 @@
 int main(void) {
 	printf("\nStarting thankYou...\n");
 	thankYou();
+	thankYou();
+	thankYou();
 	return 0;
 }
