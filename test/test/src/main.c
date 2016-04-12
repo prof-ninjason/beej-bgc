@@ -5,7 +5,9 @@
  *      Author: jcrochon
  */
 
-void main (void)
-{
+#include <main.h>
+
+void main(void) {
 	printf("Test!");
+	print();
 }
