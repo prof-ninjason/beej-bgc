@@ -11,6 +11,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+int plus_one(int n) /* THE DEFINITION */
+{
+	return n + 1;
+}
+
 void doit(int a, int b) {
 	printf("\nplus_one(a):          %3i", plus_one(a)); /* the type of a is int */
 	printf("\nplus_one(10):         %3i", plus_one(10)); /* the type of 10 is int */

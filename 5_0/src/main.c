@@ -6,9 +6,6 @@
  */
 #include "../src/main.h"
 
-// prototypes
-int plus_one(int);
-
 int main(void) {
 	int i = 10, j, a = 5, b = 10;
 
@@ -19,9 +16,3 @@ int main(void) {
 	doit(a, b);
 	return 0;
 }
-
-int plus_one(int n) /* THE DEFINITION */
-{
-	return n + 1;
-}
-
