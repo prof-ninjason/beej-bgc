@@ -8,6 +8,22 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+#include <stdlib.h>
+#include <stdio.h>
 
+int plus_one(int n) /* THE DEFINITION */
+{
+	return n + 1;
+}
+
+void doit(int a, int b) {
+	printf("\nplus_one(a):          %3i", plus_one(a)); /* the type of a is int */
+	printf("\nplus_one(10):         %3i", plus_one(10)); /* the type of 10 is int */
+	printf("\nplus_one(1 + 10):     %3i", plus_one(1 + 10)); /* the type of the whole expression is still int */
+	printf("\nplus_one(a + 10):     %3i", plus_one(a + 10)); /* the type of the whole expression is still int */
+	printf("\nplus_one(a + b):      %3i", plus_one(a + b)); /* the type of the whole expression is still int */
+	printf("\nplus_one(plus_one(a): %3i", plus_one(plus_one(a))); /* oooo! return value is int, so it's ok!  */
+	putchar('\n');
+}
 
 #endif /* MAIN_H_ */
