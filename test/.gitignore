@@ -1,1 +1,4 @@
-/Release/
+.git*
+.met*
+.set*
+/Re*/
